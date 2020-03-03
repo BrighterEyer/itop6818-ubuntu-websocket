@@ -2,7 +2,7 @@
 <a href="https://www.cnblogs.com/y-c-y/p/11686916.html" target="_blank">基于mosquitto的MQTT客户端实现C语言</a>
 ```
 apt-get install -y g++ libssl-dev libc-ares-dev uuid-dev
-wget -c https://mosquitto.org/files/source/mosquitto-1.5.5.tar.gz
+wget -c  --no-check-certificate https://mosquitto.org/files/source/mosquitto-1.5.5.tar.gz
 #解压
 tar zxvf mosquitto-1.5.5.tar.gz;cd mosquitto-1.5.5
 make;make install
